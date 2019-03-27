@@ -8,36 +8,42 @@ html, body {
     height: 100%;
 }
 
+a {
+    color: orange;
+}
+
+a:hover {
+    color: white;
+}
+
 #bg-img {
     background-image: url("Images/smash_ult_bg.jpg");
-    position: relative;
-    width: 100%;
+    position: absolute; 
     max-width: 100%;
     height: 100%;
+    background-repeat: no-repeat;
     background-size: cover;
 }
 
 header {
     text-align: center;
+    margin: 1em;
+    padding: 0em;
 }
 
 #Hey {
     font-size: 30px;
 }
 
-.ssbu-images {
-    text-align: center;
-    width: 100%;
-    height: 100%;
-}
-
 .content {
-    width: 45%;
+    width: auto;
+    max-width: 100%;
+    height: auto;
     background-color: #262626;
     padding: 1em;
-    margin: 1em;
+    margin: 0.5em;
     float: left;
-    opacity: 0.95;
+    opacity: 0.90;
 }
 
 #nav-bar ul {
@@ -57,23 +63,9 @@ header {
     display: block;
     color: white;
     text-align: center;
-    padding: 1em 2em;
+    padding: 0.5em 1.5em;
     text-decoration: none;
     transition-duration: 0.1s;
-}
-
-#nav-bar li button {
-    background-color: darkorange;
-    color: white;
-    text-align: center;
-    padding: 1em 2em;
-    text-decoration: none;
-    transition-duration: 0.1s;
-}
-
-#nav-bar li button:hover {
-    background-color: white;
-    color: darkorange;
 }
 
 #nav-bar li a:hover {
