@@ -60,7 +60,7 @@ a:hover {
     text-align: center;
 }
 
-#home-banner {
+#home-banner, #signup-sheet {
     background-color: #262626;
     position: absolute;
     text-align: center;
@@ -74,9 +74,10 @@ a:hover {
     position: relative;
 }
 
-#home-content {
+#home-content, #signup-sheet {
     margin: 5em;
     padding: 2em;
+    background-color: #161616;
 }
 
 .row {
